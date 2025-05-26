@@ -39,8 +39,8 @@ Türkiye pazarından toplanan **ürün yorumlarını** otomatik olarak
 
 ```mermaid
 graph TD
-  A[Colab Ortam Kurulumu] --> B[CSV Veri Okuma]
-  B --> C[Ön İşleme Pipeline (Tokenizer, StopWords, HashingTF, IDF)]
-  C --> D[Lojistik Regresyon Eğitimi]
-  D --> E[Doğrulama ve Karışıklık Matrisi]
-  E --> F[Inference Pipeline]
+  A["Colab Ortam Kurulumu"] --> B["CSV Veri Okuma"]
+  B --> C["Ön İşleme Pipeline: Tokenizer, StopWordsRemover, HashingTF, IDF"]
+  C --> D["Lojistik Regresyon Eğitimi"]
+  D --> E["Doğrulama ve Karışıklık Matrisi"]
+  E --> F["Inference Pipeline (Model ile Yeni Cümle Tahmini)"]
