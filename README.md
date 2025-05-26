@@ -36,7 +36,7 @@ Türkiye pazarından toplanan **ürün yorumlarını** otomatik olarak
 
 ## 🔄 İş Akışı
 
-```mermaid
+
 graph TD
   A[Colab Ortam Kurulumu] --> B[CSV Veri Okuma]
   B --> C[Ön İşleme Pipeline<br>(Tokenizer ➔ StopWords ➔ HashingTF ➔ IDF)]
